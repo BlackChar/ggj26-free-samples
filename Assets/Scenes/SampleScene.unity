@@ -406,6 +406,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialog Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: m_Spacing.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: m_Spacing.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: m_CellSize.x
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: m_CellSize.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: m_Constraint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: m_ChildAlignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: m_ConstraintCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: _dialogCharDelay
       value: 0.01
