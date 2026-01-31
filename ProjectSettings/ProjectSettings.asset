@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 1ebee3115b3c9bf35a41755304effd1d
+  productGUID: 2259547865f1261bf9fccb3fdb5f2e77
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: free-samples
+  productName: ggj26-free-samples
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -650,22 +650,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols:
-    Android: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    EmbeddedLinux: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    GameCoreXboxOne: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    Nintendo Switch: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    PS4: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    PS5: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    QNX: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    Stadia: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    Standalone: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;PLAYMAKER_TMPRO
-    VisionOS: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    WebGL: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    Windows Store Apps: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    XboxOne: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    iPhone: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
-    tvOS: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_6;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER
+  scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -697,14 +682,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: free-samples
+  metroPackageName: ggj26-free-samples
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: free-samples
+  metroApplicationDescription: ggj26-free-samples
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
