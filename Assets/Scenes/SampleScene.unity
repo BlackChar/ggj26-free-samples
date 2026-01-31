@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogBehaviour: {fileID: 2026465020}
-  dialogGraph: {fileID: 11400000, guid: 154461d681138584988d046f04fffca5, type: 2}
+  dialogGraph: {fileID: 11400000, guid: 18c56e3ef4cd5db76acb82a9a617d5d2, type: 2}
 --- !u!4 &1043980711
 Transform:
   m_ObjectHideFlags: 0
@@ -405,6 +405,10 @@ PrefabInstance:
     - target: {fileID: 4825435160123347712, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_Name
       value: Dialog Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
+      propertyPath: _dialogCharDelay
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -3,7 +3,9 @@ guid: a7677a64041892ff6ab18dcd6f43d790
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dialogBehaviour: {instanceID: 0}
+  - dialogGraph: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

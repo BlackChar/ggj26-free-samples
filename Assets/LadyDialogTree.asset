@@ -1,0 +1,617 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8873943930924594319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 85
+    y: 478
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: Interaction
+  _conditionType: 0
+  _boolTargetValue: 0
+  _intTargetValue: 2
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: 8736070965070541497}
+  TrueChildNode: {fileID: -6730315485242152317}
+  FalseChildNode: {fileID: 8842256751133308207}
+--- !u!114 &-8377884392706602836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 403
+    y: 684
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: The Hot Dog Lady
+    Text: "  \u201CAre you here for another sample wearing a disguise?\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 8842256751133308207}
+  ChildNode: {fileID: -166431976114003829}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-6730315485242152317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 403
+    y: 500
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: The Hot Dog Lady
+    Text: "\u201CHave I given you a hotdog before?\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -8873943930924594319}
+  ChildNode: {fileID: 5844203401188003416}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-6653124452339182468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1085
+    y: 480
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: '"No, wait, that''s not how it happened."'
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: 1266742737693305537}
+  - {fileID: 5844203401188003416}
+  - {fileID: -166431976114003829}
+  ChildNode: {fileID: 5400993441226385584}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-4424996126568185808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1077
+    y: 665
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: Romance
+  _modifyType: 1
+  _boolValue: 0
+  _intValue: 1
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes:
+  - {fileID: 1266742737693305537}
+  - {fileID: 5844203401188003416}
+  - {fileID: -166431976114003829}
+  ChildNode: {fileID: 5400993441226385584}
+--- !u!114 &-2569959868657629529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1106
+    y: 87
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CWe\u2019ll see about that.\u201D"
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: 913315428175582731}
+  ChildNode: {fileID: 5400993441226385584}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-2153995175817099484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1046
+    y: 272
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: '*munch munch*'
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: 1266742737693305537}
+  - {fileID: 5844203401188003416}
+  - {fileID: -166431976114003829}
+  ChildNode: {fileID: 5400993441226385584}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-166431976114003829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 697
+    y: 667
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - "\u201CWhat? No. How dare you accuse me of that.\u201D "
+  - "\u201CYou\u2019ve caught me. I\u2019m guilty. I\u2019ll go to jail myself.\u201D"
+  - "\u201CAre you wearing a disguise? Because you look like a hotdog salesman but
+    I know you\u2019re goddess.\u201D"
+  AnswerKeys: []
+  ParentNodes:
+  - {fileID: -8377884392706602836}
+  ChildNodes:
+  - {fileID: -2153995175817099484}
+  - {fileID: -6653124452339182468}
+  - {fileID: -4424996126568185808}
+--- !u!114 &-108476665081695155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 406
+    y: 304
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: The Hot Dog Lady
+    Text: "\u201Cis this your first sample?\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 8736070965070541497}
+  ChildNode: {fileID: 1266742737693305537}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: LadyDialogTree
+  m_EditorClassIdentifier: 
+  NodesList:
+  - {fileID: 5662151232066976246}
+  - {fileID: 1799488864322913363}
+  - {fileID: 913315428175582731}
+  - {fileID: -2569959868657629529}
+  - {fileID: 8850210716939913185}
+  - {fileID: 8736070965070541497}
+  - {fileID: -108476665081695155}
+  - {fileID: 1266742737693305537}
+  - {fileID: -8873943930924594319}
+  - {fileID: -6730315485242152317}
+  - {fileID: 5844203401188003416}
+  - {fileID: 5400993441226385584}
+  - {fileID: 8842256751133308207}
+  - {fileID: -8377884392706602836}
+  - {fileID: -166431976114003829}
+  - {fileID: -2153995175817099484}
+  - {fileID: -6653124452339182468}
+  - {fileID: -4424996126568185808}
+  VariablesConfig: {fileID: 11400000, guid: fbac82de6432ddef390043046cca40f1, type: 2}
+  _localizationTableName: 
+  _characterNamesLocalizationName: 
+  NodeToDrawLineFrom: {fileID: 0}
+  LinePosition: {x: 0, y: 0}
+  IsLocalizationSetUp: 0
+--- !u!114 &913315428175582731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 877
+    y: 90
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: The Hot Dog Lady
+    Text: "\u201CEnjoy! Only one free sample per customer!\u201D "
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 8850210716939913185}
+  ChildNode: {fileID: -2569959868657629529}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &1266742737693305537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 692
+    y: 298
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  Answers:
+  - "\u201CYes m\u2019am!\u201D"
+  - "\u201CNo, I already had one. I am back with a disguise.\u201D"
+  - "\u201CDo you believe in love on first sample?\u201D"
+  AnswerKeys: []
+  ParentNodes:
+  - {fileID: -108476665081695155}
+  ChildNodes:
+  - {fileID: -2153995175817099484}
+  - {fileID: -6653124452339182468}
+  - {fileID: -4424996126568185808}
+--- !u!114 &1799488864322913363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 385
+    y: 83
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: The Hot Dog Lady
+    Text: "\u201CWould you like to sample a free hotdog?\u201D"
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: 5662151232066976246}
+  ChildNode: {fileID: 8850210716939913185}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &5400993441226385584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1320
+    y: 274
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: Interaction
+  _modifyType: 1
+  _boolValue: 0
+  _intValue: 1
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes:
+  - {fileID: -2569959868657629529}
+  - {fileID: -2153995175817099484}
+  - {fileID: -6653124452339182468}
+  - {fileID: -4424996126568185808}
+  ChildNode: {fileID: 0}
+--- !u!114 &5662151232066976246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 76
+    y: 81
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: Interaction
+  _conditionType: 0
+  _boolTargetValue: 0
+  _intTargetValue: 0
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes: []
+  TrueChildNode: {fileID: 1799488864322913363}
+  FalseChildNode: {fileID: 8736070965070541497}
+--- !u!114 &5844203401188003416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 695
+    y: 495
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 1
+  Answers:
+  - "\u201CAbsolutely not, I\u2019m new here!\u201D "
+  - "\u201CYes. Shamefully I must admit, I am wearing a disguise.\u201D "
+  - "\u201CLady, if you gave me a hotdog, I would remember it for the rest of my
+    life.\u201D "
+  AnswerKeys: []
+  ParentNodes:
+  - {fileID: -6730315485242152317}
+  ChildNodes:
+  - {fileID: -2153995175817099484}
+  - {fileID: -6653124452339182468}
+  - {fileID: -4424996126568185808}
+--- !u!114 &8736070965070541497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 83
+    y: 287
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: Interaction
+  _conditionType: 0
+  _boolTargetValue: 0
+  _intTargetValue: 1
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: 5662151232066976246}
+  TrueChildNode: {fileID: -108476665081695155}
+  FalseChildNode: {fileID: -8873943930924594319}
+--- !u!114 &8842256751133308207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38789157e7795244280823d019530045, type: 3}
+  m_Name: Variable Condition Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 81
+    y: 679
+    width: 240
+    height: 160
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: Interaction
+  _conditionType: 0
+  _boolTargetValue: 0
+  _intTargetValue: 3
+  _floatTargetValue: 0
+  _stringTargetValue: 
+  ParentNodes:
+  - {fileID: -8873943930924594319}
+  TrueChildNode: {fileID: -8377884392706602836}
+  FalseChildNode: {fileID: 0}
+--- !u!114 &8850210716939913185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 655
+    y: 89
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CYesm\u2019am!\u201D"
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: 1799488864322913363}
+  ChildNode: {fileID: 913315428175582731}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
