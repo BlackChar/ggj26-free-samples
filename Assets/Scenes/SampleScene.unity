@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 1043980711}
   - component: {fileID: 1043980710}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DialogObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -428,7 +428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_ChildAlignment
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5725075076170748691, guid: 0bd08184220c9914a877f3a735221e05, type: 3}
       propertyPath: m_ConstraintCount
