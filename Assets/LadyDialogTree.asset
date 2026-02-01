@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 81
-    y: 658
+    x: -495.79974
+    y: 424.20044
     width: 240
     height: 160
   IsDragging: 1
@@ -29,7 +29,7 @@ MonoBehaviour:
   _stringTargetValue: 
   ParentNodes:
   - {fileID: 8736070965070541497}
-  TrueChildNode: {fileID: -6730315485242152317}
+  TrueChildNode: {fileID: 85023011097944247}
   FalseChildNode: {fileID: 8842256751133308207}
 --- !u!114 &-8377884392706602836
 MonoBehaviour:
@@ -46,21 +46,21 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 399
-    y: 864
+    x: -144.19965
+    y: 909.3987
     width: 190
-    height: 135
+    height: 155
   IsDragging: 1
   IsSelected: 0
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "  \u201CAre you here for another sample wearing a disguise?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
   ParentNodes:
-  - {fileID: 8842256751133308207}
+  - {fileID: -1734306000189779496}
   ChildNode: {fileID: -166431976114003829}
-  _isExternalFunc: 0
-  _externalFunctionName: 
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &-8278342111320342072
@@ -78,8 +78,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 924
-    y: 167
+    x: 399.1994
+    y: -316.40067
     width: 210
     height: 155
   IsDragging: 1
@@ -93,6 +93,68 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: 8850210716939913185}
   ChildNode: {fileID: 913315428175582731}
+--- !u!114 &-7629556984563403125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1116.3975
+    y: -19.400177
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes:
+  - {fileID: -166431976114003829}
+  ChildNode: {fileID: 8903306596383313255}
+--- !u!114 &-6876223120506937310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 470.7998
+    y: 987.0017
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CDo you believe in love on first sample?\u201D"
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: -5896856325793351132}
+  ChildNode: {fileID: -4424996126568185808}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
 --- !u!114 &-6730315485242152317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,21 +170,21 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 399
-    y: 680
+    x: -148.99945
+    y: 570.9995
     width: 190
-    height: 135
+    height: 155
   IsDragging: 1
   IsSelected: 0
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "\u201CHave I given you a hotdog before?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
   ParentNodes:
-  - {fileID: -8873943930924594319}
+  - {fileID: 85023011097944247}
   ChildNode: {fileID: 5844203401188003416}
-  _isExternalFunc: 0
-  _externalFunctionName: 
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &-6684978401787087157
@@ -140,8 +202,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 673
-    y: 176
+    x: 148.20099
+    y: -307.40067
     width: 210
     height: 155
   IsDragging: 1
@@ -170,8 +232,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1081
-    y: 660
+    x: 1606.6011
+    y: 382.19995
     width: 190
     height: 135
   IsDragging: 1
@@ -181,14 +243,108 @@ MonoBehaviour:
     Text: '"No, wait, that''s not how it happened."'
     CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
   ParentNodes:
-  - {fileID: 1266742737693305537}
-  - {fileID: 5844203401188003416}
-  - {fileID: -166431976114003829}
+  - {fileID: -1442218624826585894}
+  - {fileID: 7370148923388945395}
+  - {fileID: 4204583183412054413}
   ChildNode: {fileID: 5400993441226385584}
   _isExternalFunc: 0
   _externalFunctionName: 
   CharacterNameKey: 
   SentenceTextKey: 
+--- !u!114 &-6144611588763790839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 461.99854
+    y: 8.599762
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: '1Aplayer '
+  ParentNodes:
+  - {fileID: 1266742737693305537}
+  ChildNode: {fileID: 5473459596278995532}
+--- !u!114 &-6056489224811733193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1121.1982
+    y: 996.6018
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CAre you wearing a disguise? Because you look like a hotdog salesman
+      but I know you\u2019re goddess.\u201D"
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: -4451025571598794001}
+  ChildNode: {fileID: -4424996126568185808}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-5896856325793351132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 467.59912
+    y: 822.19995
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 1Cplayer
+  ParentNodes:
+  - {fileID: 1266742737693305537}
+  - {fileID: -517880887413491037}
+  ChildNode: {fileID: -6876223120506937310}
 --- !u!114 &-5517677057162122259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,8 +360,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1164
-    y: 152
+    x: 639.199
+    y: -331.4008
     width: 210
     height: 155
   IsDragging: 1
@@ -219,6 +375,36 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: 913315428175582731}
   ChildNode: {fileID: -2569959868657629529}
+--- !u!114 &-4451025571598794001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1109.1987
+    y: 817.4004
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 3cplayer
+  ParentNodes:
+  - {fileID: -166431976114003829}
+  ChildNode: {fileID: -6056489224811733193}
 --- !u!114 &-4424996126568185808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,8 +420,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1073
-    y: 845
+    x: 1612.1997
+    y: 790.3989
     width: 210
     height: 155
   IsDragging: 1
@@ -247,10 +433,40 @@ MonoBehaviour:
   _floatValue: 0
   _stringValue: 
   ParentNodes:
-  - {fileID: 1266742737693305537}
-  - {fileID: 5844203401188003416}
-  - {fileID: -166431976114003829}
+  - {fileID: -6876223120506937310}
+  - {fileID: 709659642615885605}
+  - {fileID: -6056489224811733193}
   ChildNode: {fileID: 5400993441226385584}
+--- !u!114 &-3213983066043526683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 460.79926
+    y: 398.80017
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 1
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 1Bplayer
+  ParentNodes:
+  - {fileID: 1266742737693305537}
+  ChildNode: {fileID: -1442218624826585894}
 --- !u!114 &-2569959868657629529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,8 +482,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1169
-    y: 308
+    x: 644.1987
+    y: -175.39961
     width: 190
     height: 155
   IsDragging: 1
@@ -298,8 +514,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1396
-    y: 487
+    x: 1602.3989
+    y: -44.400604
     width: 190
     height: 135
   IsDragging: 1
@@ -309,14 +525,198 @@ MonoBehaviour:
     Text: '*munch munch*'
     CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
   ParentNodes:
-  - {fileID: 1266742737693305537}
-  - {fileID: 5844203401188003416}
-  - {fileID: -166431976114003829}
+  - {fileID: 5473459596278995532}
+  - {fileID: -595974289702426641}
+  - {fileID: 8903306596383313255}
   ChildNode: {fileID: 5400993441226385584}
   _isExternalFunc: 0
   _externalFunctionName: 
   CharacterNameKey: 
   SentenceTextKey: 
+--- !u!114 &-1734306000189779496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -146.79999
+    y: 751.7969
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 3Lady
+  ParentNodes:
+  - {fileID: 8842256751133308207}
+  ChildNode: {fileID: -8377884392706602836}
+--- !u!114 &-1704432428788052054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 779.5985
+    y: 412.6001
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 2Bplayer
+  ParentNodes:
+  - {fileID: 5844203401188003416}
+  ChildNode: {fileID: 7370148923388945395}
+--- !u!114 &-1442218624826585894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 461.19904
+    y: 598.19946
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CNo, I already had one. I am back with a disguise.\u201D"
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: -3213983066043526683}
+  ChildNode: {fileID: -6653124452339182468}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-595974289702426641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 801.1982
+    y: 160.59998
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CAbsolutely not, I\u2019m new here!\u201D "
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: 4471493357283500066}
+  ChildNode: {fileID: -2153995175817099484}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &-517880887413491037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 781.9989
+    y: 823.8003
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 2Cplayer
+  ParentNodes:
+  - {fileID: 5844203401188003416}
+  ChildNode: {fileID: -5896856325793351132}
+--- !u!114 &-313639228845227011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -158.79938
+    y: 59.799652
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 1Lady
+  ParentNodes:
+  - {fileID: 8736070965070541497}
+  ChildNode: {fileID: -108476665081695155}
 --- !u!114 &-166431976114003829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,8 +732,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 693
-    y: 847
+    x: 111.40094
+    y: 749.9968
     width: 190
     height: 155
   IsDragging: 1
@@ -350,9 +750,9 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: -8377884392706602836}
   ChildNodes:
-  - {fileID: -2153995175817099484}
-  - {fileID: -6653124452339182468}
-  - {fileID: -4424996126568185808}
+  - {fileID: -7629556984563403125}
+  - {fileID: 1990859038986548300}
+  - {fileID: -4451025571598794001}
 --- !u!114 &-108476665081695155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,21 +768,21 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 402
-    y: 484
+    x: -159.59918
+    y: 223.79901
     width: 190
-    height: 135
+    height: 155
   IsDragging: 1
   IsSelected: 0
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "\u201Cis this your first sample?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
   ParentNodes:
-  - {fileID: 8736070965070541497}
+  - {fileID: -313639228845227011}
   ChildNode: {fileID: 1266742737693305537}
-  _isExternalFunc: 0
-  _externalFunctionName: 
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
   CharacterNameKey: 
   SentenceTextKey: 
 --- !u!114 &11400000
@@ -420,12 +820,95 @@ MonoBehaviour:
   - {fileID: -6684978401787087157}
   - {fileID: -8278342111320342072}
   - {fileID: -5517677057162122259}
+  - {fileID: -313639228845227011}
+  - {fileID: -6144611588763790839}
+  - {fileID: 85023011097944247}
+  - {fileID: -1734306000189779496}
+  - {fileID: 5473459596278995532}
+  - {fileID: -3213983066043526683}
+  - {fileID: -1442218624826585894}
+  - {fileID: -5896856325793351132}
+  - {fileID: -6876223120506937310}
+  - {fileID: 4471493357283500066}
+  - {fileID: -595974289702426641}
+  - {fileID: -7629556984563403125}
+  - {fileID: 8903306596383313255}
+  - {fileID: 7370148923388945395}
+  - {fileID: -1704432428788052054}
+  - {fileID: 4204583183412054413}
+  - {fileID: 1990859038986548300}
+  - {fileID: -517880887413491037}
+  - {fileID: -4451025571598794001}
+  - {fileID: 709659642615885605}
+  - {fileID: -6056489224811733193}
   VariablesConfig: {fileID: 11400000, guid: fbac82de6432ddef390043046cca40f1, type: 2}
   _localizationTableName: 
   _characterNamesLocalizationName: 
   NodeToDrawLineFrom: {fileID: 0}
   LinePosition: {x: 0, y: 0}
   IsLocalizationSetUp: 0
+--- !u!114 &85023011097944247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: -147.60004
+    y: 410.19946
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 2Lady
+  ParentNodes:
+  - {fileID: -8873943930924594319}
+  ChildNode: {fileID: -6730315485242152317}
+--- !u!114 &709659642615885605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 788.3988
+    y: 1000.60156
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CLady, if you gave me a hotdog, I would remember it for the rest
+      of my life.\u201D "
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes: []
+  ChildNode: {fileID: -4424996126568185808}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
 --- !u!114 &913315428175582731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,8 +924,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 933
-    y: 311
+    x: 408.19965
+    y: -172.39998
     width: 190
     height: 155
   IsDragging: 1
@@ -473,8 +956,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 687
-    y: 478
+    x: 142.20172
+    y: 67.39984
     width: 190
     height: 155
   IsDragging: 1
@@ -490,9 +973,9 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: -108476665081695155}
   ChildNodes:
-  - {fileID: -2153995175817099484}
-  - {fileID: -6653124452339182468}
-  - {fileID: -4424996126568185808}
+  - {fileID: -6144611588763790839}
+  - {fileID: -3213983066043526683}
+  - {fileID: -5896856325793351132}
 --- !u!114 &1799488864322913363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,8 +991,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 394
-    y: 336
+    x: -130.79974
+    y: -147.40033
     width: 190
     height: 155
   IsDragging: 1
@@ -517,7 +1000,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "\u201CWould you like to sample a free hotdog?\u201D"
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
   ParentNodes:
   - {fileID: 7272588074984464437}
   ChildNode: {fileID: -6684978401787087157}
@@ -525,6 +1008,98 @@ MonoBehaviour:
   _externalFunctionName: playAudio
   CharacterNameKey: 
   SentenceTextKey: 
+--- !u!114 &1990859038986548300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1112.3987
+    y: 403.79993
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 3Bplayer
+  ParentNodes:
+  - {fileID: -166431976114003829}
+  ChildNode: {fileID: 4204583183412054413}
+--- !u!114 &4204583183412054413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1109.199
+    y: 579.8003
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CYou\u2019ve caught me. I\u2019m guilty. I\u2019ll go to jail myself.\u201D"
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: 1990859038986548300}
+  ChildNode: {fileID: -6653124452339182468}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &4471493357283500066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 793.99805
+    y: -7.400177
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: 
+  ParentNodes:
+  - {fileID: 5844203401188003416}
+  ChildNode: {fileID: -595974289702426641}
 --- !u!114 &5400993441226385584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,8 +1115,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1713
-    y: 345
+    x: 2158.588
+    y: -192.00044
     width: 210
     height: 155
   IsDragging: 1
@@ -558,6 +1133,38 @@ MonoBehaviour:
   - {fileID: -6653124452339182468}
   - {fileID: -4424996126568185808}
   ChildNode: {fileID: 0}
+--- !u!114 &5473459596278995532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 465.19946
+    y: 166.99976
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CYes m\u2019am!\u201D"
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: -6144611588763790839}
+  ChildNode: {fileID: -2153995175817099484}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
 --- !u!114 &5662151232066976246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,8 +1180,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 58
-    y: 232
+    x: -466.80023
+    y: -251.39963
     width: 240
     height: 160
   IsDragging: 1
@@ -603,8 +1210,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 691
-    y: 675
+    x: 117.40045
+    y: 410.8004
     width: 190
     height: 155
   IsDragging: 1
@@ -621,9 +1228,9 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: -6730315485242152317}
   ChildNodes:
-  - {fileID: -2153995175817099484}
-  - {fileID: -6653124452339182468}
-  - {fileID: -4424996126568185808}
+  - {fileID: 4471493357283500066}
+  - {fileID: -1704432428788052054}
+  - {fileID: -517880887413491037}
 --- !u!114 &7272588074984464437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,8 +1246,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 387
-    y: 190
+    x: -137.79974
+    y: -293.4006
     width: 210
     height: 155
   IsDragging: 1
@@ -654,6 +1261,38 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: 5662151232066976246}
   ChildNode: {fileID: 1799488864322913363}
+--- !u!114 &7370148923388945395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 777.9987
+    y: 591.00024
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CYes. Shamefully I must admit, I am wearing a disguise.\u201D "
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: -1704432428788052054}
+  ChildNode: {fileID: -6653124452339182468}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
 --- !u!114 &8736070965070541497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,8 +1308,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 79
-    y: 467
+    x: -486.60028
+    y: 110.79959
     width: 240
     height: 160
   IsDragging: 1
@@ -683,7 +1322,7 @@ MonoBehaviour:
   _stringTargetValue: 
   ParentNodes:
   - {fileID: 5662151232066976246}
-  TrueChildNode: {fileID: -108476665081695155}
+  TrueChildNode: {fileID: -313639228845227011}
   FalseChildNode: {fileID: -8873943930924594319}
 --- !u!114 &8842256751133308207
 MonoBehaviour:
@@ -700,8 +1339,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 77
-    y: 859
+    x: -522.2004
+    y: 776.3972
     width: 240
     height: 160
   IsDragging: 1
@@ -714,7 +1353,7 @@ MonoBehaviour:
   _stringTargetValue: 
   ParentNodes:
   - {fileID: -8873943930924594319}
-  TrueChildNode: {fileID: -8377884392706602836}
+  TrueChildNode: {fileID: -1734306000189779496}
   FalseChildNode: {fileID: 0}
 --- !u!114 &8850210716939913185
 MonoBehaviour:
@@ -731,12 +1370,12 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 678
-    y: 323
+    x: 153.20074
+    y: -160.40033
     width: 190
     height: 155
   IsDragging: 1
-  IsSelected: 1
+  IsSelected: 0
   _sentence:
     CharacterName: 
     Text: "\u201CYes m\u2019am!\u201D"
@@ -744,6 +1383,38 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: -6684978401787087157}
   ChildNode: {fileID: -8278342111320342072}
+  _isExternalFunc: 1
+  _externalFunctionName: playAudio
+  CharacterNameKey: 
+  SentenceTextKey: 
+--- !u!114 &8903306596383313255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1116.3972
+    y: 148.6001
+    width: 190
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: 
+    Text: "\u201CWhat? No. How dare you accuse me of that.\u201D "
+    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+  ParentNodes:
+  - {fileID: -7629556984563403125}
+  ChildNode: {fileID: -2153995175817099484}
   _isExternalFunc: 1
   _externalFunctionName: playAudio
   CharacterNameKey: 
