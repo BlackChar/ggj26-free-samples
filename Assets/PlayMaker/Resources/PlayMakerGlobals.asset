@@ -58,3 +58,4 @@ MonoBehaviour:
   events:
   - flip left
   - flip right
+  - INTERACT
