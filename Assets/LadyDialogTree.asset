@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -495.79974
-    y: 424.20044
+    x: -1317.7998
+    y: 537.20044
     width: 240
     height: 160
   IsDragging: 1
@@ -46,8 +46,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -144.19965
-    y: 909.3987
+    x: -966.1997
+    y: 1022.3987
     width: 190
     height: 155
   IsDragging: 1
@@ -78,8 +78,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 399.1994
-    y: -316.40067
+    x: -422.80054
+    y: -203.40063
     width: 210
     height: 155
   IsDragging: 1
@@ -108,8 +108,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1116.3975
-    y: -19.400177
+    x: 287.39746
+    y: 85.59982
     width: 210
     height: 155
   IsDragging: 1
@@ -119,7 +119,7 @@ MonoBehaviour:
   _boolValue: 0
   _intValue: 0
   _floatValue: 0
-  _stringValue: 
+  _stringValue: 3Aplayer
   ParentNodes:
   - {fileID: -166431976114003829}
   ChildNode: {fileID: 8903306596383313255}
@@ -138,8 +138,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 470.7998
-    y: 987.0017
+    x: -351.2002
+    y: 1100.0017
     width: 190
     height: 155
   IsDragging: 1
@@ -170,8 +170,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -148.99945
-    y: 570.9995
+    x: -970.9995
+    y: 683.9995
     width: 190
     height: 155
   IsDragging: 1
@@ -202,8 +202,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 148.20099
-    y: -307.40067
+    x: -673.799
+    y: -194.40063
     width: 210
     height: 155
   IsDragging: 1
@@ -232,8 +232,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1606.6011
-    y: 382.19995
+    x: 784.6011
+    y: 495.19995
     width: 190
     height: 135
   IsDragging: 1
@@ -251,6 +251,36 @@ MonoBehaviour:
   _externalFunctionName: 
   CharacterNameKey: 
   SentenceTextKey: 
+--- !u!114 &-6625178406413556449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1225
+    y: 375
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: OutroWin
+  ParentNodes:
+  - {fileID: 8903306596383313255}
+  ChildNode: {fileID: 6517375539639924044}
 --- !u!114 &-6144611588763790839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,8 +296,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 461.99854
-    y: 8.599762
+    x: -360.00146
+    y: 121.59976
     width: 210
     height: 155
   IsDragging: 1
@@ -277,7 +307,7 @@ MonoBehaviour:
   _boolValue: 0
   _intValue: 0
   _floatValue: 0
-  _stringValue: '1Aplayer '
+  _stringValue: 1Aplayer
   ParentNodes:
   - {fileID: 1266742737693305537}
   ChildNode: {fileID: 5473459596278995532}
@@ -296,8 +326,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1121.1982
-    y: 996.6018
+    x: 299.19824
+    y: 1109.6018
     width: 190
     height: 155
   IsDragging: 1
@@ -329,8 +359,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 467.59912
-    y: 822.19995
+    x: -354.40088
+    y: 935.19995
     width: 210
     height: 155
   IsDragging: 1
@@ -360,8 +390,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 639.199
-    y: -331.4008
+    x: -182.80103
+    y: -218.40076
     width: 210
     height: 155
   IsDragging: 1
@@ -390,8 +420,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1109.1987
-    y: 817.4004
+    x: 287.19873
+    y: 930.4004
     width: 210
     height: 155
   IsDragging: 1
@@ -401,7 +431,7 @@ MonoBehaviour:
   _boolValue: 0
   _intValue: 0
   _floatValue: 0
-  _stringValue: 3cplayer
+  _stringValue: 3Cplayer
   ParentNodes:
   - {fileID: -166431976114003829}
   ChildNode: {fileID: -6056489224811733193}
@@ -420,8 +450,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1612.1997
-    y: 790.3989
+    x: 790.1997
+    y: 903.3989
     width: 210
     height: 155
   IsDragging: 1
@@ -452,12 +482,12 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 460.79926
-    y: 398.80017
+    x: -361.20068
+    y: 511.80017
     width: 210
     height: 155
   IsDragging: 1
-  IsSelected: 1
+  IsSelected: 0
   _variableName: AudioClip
   _modifyType: 0
   _boolValue: 0
@@ -482,8 +512,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 644.1987
-    y: -175.39961
+    x: -177.80127
+    y: -62.399597
     width: 190
     height: 155
   IsDragging: 1
@@ -514,20 +544,18 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1602.3989
-    y: -44.400604
+    x: 771.3989
+    y: 204.5994
     width: 190
     height: 135
   IsDragging: 1
   IsSelected: 0
   _sentence:
     CharacterName: 
-    Text: '*munch munch*'
+    Text: Yum!
     CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
   ParentNodes:
-  - {fileID: 5473459596278995532}
-  - {fileID: -595974289702426641}
-  - {fileID: 8903306596383313255}
+  - {fileID: 7322080793116021540}
   ChildNode: {fileID: 5400993441226385584}
   _isExternalFunc: 0
   _externalFunctionName: 
@@ -548,8 +576,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -146.79999
-    y: 751.7969
+    x: -968.80005
+    y: 864.7969
     width: 210
     height: 155
   IsDragging: 1
@@ -578,8 +606,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 779.5985
-    y: 412.6001
+    x: -42.40149
+    y: 525.6001
     width: 210
     height: 155
   IsDragging: 1
@@ -608,8 +636,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 461.19904
-    y: 598.19946
+    x: -360.80103
+    y: 711.19946
     width: 190
     height: 155
   IsDragging: 1
@@ -640,8 +668,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 801.1982
-    y: 160.59998
+    x: 5.198242
+    y: 301.59998
     width: 190
     height: 155
   IsDragging: 1
@@ -652,7 +680,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
   ParentNodes:
   - {fileID: 4471493357283500066}
-  ChildNode: {fileID: -2153995175817099484}
+  ChildNode: {fileID: 7322080793116021540}
   _isExternalFunc: 1
   _externalFunctionName: playAudio
   CharacterNameKey: 
@@ -672,8 +700,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 781.9989
-    y: 823.8003
+    x: -40.0011
+    y: 936.8003
     width: 210
     height: 155
   IsDragging: 1
@@ -702,8 +730,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -158.79938
-    y: 59.799652
+    x: -980.7993
+    y: 172.79965
     width: 210
     height: 155
   IsDragging: 1
@@ -732,8 +760,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 111.40094
-    y: 749.9968
+    x: -710.59906
+    y: 862.9968
     width: 190
     height: 155
   IsDragging: 1
@@ -768,8 +796,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -159.59918
-    y: 223.79901
+    x: -981.5991
+    y: 336.799
     width: 190
     height: 155
   IsDragging: 1
@@ -841,6 +869,9 @@ MonoBehaviour:
   - {fileID: -4451025571598794001}
   - {fileID: 709659642615885605}
   - {fileID: -6056489224811733193}
+  - {fileID: 7322080793116021540}
+  - {fileID: 6517375539639924044}
+  - {fileID: -6625178406413556449}
   VariablesConfig: {fileID: 11400000, guid: fbac82de6432ddef390043046cca40f1, type: 2}
   _localizationTableName: 
   _characterNamesLocalizationName: 
@@ -862,8 +893,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -147.60004
-    y: 410.19946
+    x: -969.6001
+    y: 523.19946
     width: 210
     height: 155
   IsDragging: 1
@@ -892,8 +923,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 788.3988
-    y: 1000.60156
+    x: -33.601196
+    y: 1113.6016
     width: 190
     height: 155
   IsDragging: 1
@@ -924,8 +955,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 408.19965
-    y: -172.39998
+    x: -413.8003
+    y: -59.399963
     width: 190
     height: 155
   IsDragging: 1
@@ -956,8 +987,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 142.20172
-    y: 67.39984
+    x: -679.7983
+    y: 180.39984
     width: 190
     height: 155
   IsDragging: 1
@@ -991,8 +1022,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -130.79974
-    y: -147.40033
+    x: -952.7998
+    y: -34.40033
     width: 190
     height: 155
   IsDragging: 1
@@ -1023,8 +1054,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1112.3987
-    y: 403.79993
+    x: 290.39868
+    y: 516.7999
     width: 210
     height: 155
   IsDragging: 1
@@ -1053,8 +1084,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1109.199
-    y: 579.8003
+    x: 287.19897
+    y: 692.8003
     width: 190
     height: 155
   IsDragging: 1
@@ -1085,8 +1116,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 793.99805
-    y: -7.400177
+    x: -27.001953
+    y: 105.59982
     width: 210
     height: 155
   IsDragging: 1
@@ -1096,7 +1127,7 @@ MonoBehaviour:
   _boolValue: 0
   _intValue: 0
   _floatValue: 0
-  _stringValue: 
+  _stringValue: 2Aplayer
   ParentNodes:
   - {fileID: 5844203401188003416}
   ChildNode: {fileID: -595974289702426641}
@@ -1115,8 +1146,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 2158.588
-    y: -192.00044
+    x: 1336.5879
+    y: -79.00043
     width: 210
     height: 155
   IsDragging: 1
@@ -1148,8 +1179,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 465.19946
-    y: 166.99976
+    x: -354.80054
+    y: 294.99976
     width: 190
     height: 155
   IsDragging: 1
@@ -1160,7 +1191,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
   ParentNodes:
   - {fileID: -6144611588763790839}
-  ChildNode: {fileID: -2153995175817099484}
+  ChildNode: {fileID: 7322080793116021540}
   _isExternalFunc: 1
   _externalFunctionName: playAudio
   CharacterNameKey: 
@@ -1180,8 +1211,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -466.80023
-    y: -251.39963
+    x: -1288.8003
+    y: -138.39966
     width: 240
     height: 160
   IsDragging: 1
@@ -1210,8 +1241,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 117.40045
-    y: 410.8004
+    x: -704.59955
+    y: 523.8004
     width: 190
     height: 155
   IsDragging: 1
@@ -1231,6 +1262,39 @@ MonoBehaviour:
   - {fileID: 4471493357283500066}
   - {fileID: -1704432428788052054}
   - {fileID: -517880887413491037}
+--- !u!114 &6517375539639924044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 1489
+    y: 389
+    width: 190
+    height: 135
+  IsDragging: 1
+  IsSelected: 0
+  _sentence:
+    CharacterName: You Won!
+    Text: My stomach, full. My mission, complete. My soul... Oh, ladies and gents,
+      my soul is fulfilled!
+    CharacterSprite: {fileID: 0}
+  ParentNodes:
+  - {fileID: -6625178406413556449}
+  ChildNode: {fileID: 0}
+  _isExternalFunc: 0
+  _externalFunctionName: 
+  CharacterNameKey: 
+  SentenceTextKey: 
 --- !u!114 &7272588074984464437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1246,8 +1310,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -137.79974
-    y: -293.4006
+    x: -959.7998
+    y: -180.40063
     width: 210
     height: 155
   IsDragging: 1
@@ -1261,6 +1325,37 @@ MonoBehaviour:
   ParentNodes:
   - {fileID: 5662151232066976246}
   ChildNode: {fileID: 1799488864322913363}
+--- !u!114 &7322080793116021540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
+  m_Name: Modify Variable Node
+  m_EditorClassIdentifier: 
+  NodeGraph: {fileID: 11400000}
+  Rect:
+    serializedVersion: 2
+    x: 774
+    y: 38
+    width: 210
+    height: 155
+  IsDragging: 1
+  IsSelected: 0
+  _variableName: AudioClip
+  _modifyType: 0
+  _boolValue: 0
+  _intValue: 0
+  _floatValue: 0
+  _stringValue: Bark1
+  ParentNodes:
+  - {fileID: -595974289702426641}
+  - {fileID: 5473459596278995532}
+  ChildNode: {fileID: -2153995175817099484}
 --- !u!114 &7370148923388945395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1276,8 +1371,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 777.9987
-    y: 591.00024
+    x: -44.00122
+    y: 704.00024
     width: 190
     height: 155
   IsDragging: 1
@@ -1308,8 +1403,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -486.60028
-    y: 110.79959
+    x: -1308.6003
+    y: 223.79959
     width: 240
     height: 160
   IsDragging: 1
@@ -1339,8 +1434,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -522.2004
-    y: 776.3972
+    x: -1344.2004
+    y: 889.3972
     width: 240
     height: 160
   IsDragging: 1
@@ -1370,8 +1465,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 153.20074
-    y: -160.40033
+    x: -668.79926
+    y: -47.40033
     width: 190
     height: 155
   IsDragging: 1
@@ -1402,8 +1497,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1116.3972
-    y: 148.6001
+    x: 320.39722
+    y: 334.6001
     width: 190
     height: 155
   IsDragging: 1
@@ -1414,7 +1509,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
   ParentNodes:
   - {fileID: -7629556984563403125}
-  ChildNode: {fileID: -2153995175817099484}
+  ChildNode: {fileID: -6625178406413556449}
   _isExternalFunc: 1
   _externalFunctionName: playAudio
   CharacterNameKey: 

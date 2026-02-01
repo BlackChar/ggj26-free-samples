@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title screen.unity
+    guid: ab8cce7fe6684c24b829a7351916e70e
+  - enabled: 1
+    path: Assets/Scenes/Walk and collide.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: ae769157f0014c84a88011cba0577d77
   m_configObjects: {}
