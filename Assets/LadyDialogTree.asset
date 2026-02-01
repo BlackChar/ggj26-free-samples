@@ -15,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -1317.7998
-    y: 537.20044
+    x: -1368.4672
+    y: -94.13263
     width: 240
     height: 160
   IsDragging: 1
@@ -46,8 +46,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -966.1997
-    y: 1022.3987
+    x: -1016.8664
+    y: 393.0654
     width: 190
     height: 155
   IsDragging: 1
@@ -55,7 +55,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "  \u201CAre you here for another sample wearing a disguise?\u201D"
-    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: ec1e5da746e811541be8e1af8125f9cb, type: 3}
   ParentNodes:
   - {fileID: -1734306000189779496}
   ChildNode: {fileID: -166431976114003829}
@@ -78,8 +78,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -422.80054
-    y: -203.40063
+    x: -473.4668
+    y: -834.73376
     width: 210
     height: 155
   IsDragging: 1
@@ -108,8 +108,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 287.39746
-    y: 85.59982
+    x: 236.73172
+    y: -545.7334
     width: 210
     height: 155
   IsDragging: 1
@@ -138,8 +138,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -351.2002
-    y: 1100.0017
+    x: -401.2002
+    y: 468.6685
     width: 190
     height: 155
   IsDragging: 1
@@ -147,7 +147,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CDo you believe in love on first sample?\u201D"
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -5896856325793351132}
   ChildNode: {fileID: -4424996126568185808}
@@ -170,8 +170,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -970.9995
-    y: 683.9995
+    x: -1021.66614
+    y: 52.666443
     width: 190
     height: 155
   IsDragging: 1
@@ -179,7 +179,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "\u201CHave I given you a hotdog before?\u201D"
-    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: ec1e5da746e811541be8e1af8125f9cb, type: 3}
   ParentNodes:
   - {fileID: 85023011097944247}
   ChildNode: {fileID: 5844203401188003416}
@@ -202,8 +202,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -673.799
-    y: -194.40063
+    x: -724.4657
+    y: -825.7339
     width: 210
     height: 155
   IsDragging: 1
@@ -232,8 +232,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 784.6011
-    y: 495.19995
+    x: 734.6006
+    y: -136.13303
     width: 190
     height: 135
   IsDragging: 1
@@ -241,7 +241,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: '"No, wait, that''s not how it happened."'
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -1442218624826585894}
   - {fileID: 7370148923388945395}
@@ -266,8 +266,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1225
-    y: 375
+    x: 1174.3317
+    y: -256.33316
     width: 210
     height: 155
   IsDragging: 1
@@ -296,8 +296,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -360.00146
-    y: 121.59976
+    x: -410.6682
+    y: -509.73346
     width: 210
     height: 155
   IsDragging: 1
@@ -326,8 +326,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 299.19824
-    y: 1109.6018
+    x: 249.19879
+    y: 478.26855
     width: 190
     height: 155
   IsDragging: 1
@@ -336,7 +336,7 @@ MonoBehaviour:
     CharacterName: 
     Text: "\u201CAre you wearing a disguise? Because you look like a hotdog salesman
       but I know you\u2019re goddess.\u201D"
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -4451025571598794001}
   ChildNode: {fileID: -4424996126568185808}
@@ -359,8 +359,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -354.40088
-    y: 935.19995
+    x: -405.06738
+    y: 303.8667
     width: 210
     height: 155
   IsDragging: 1
@@ -390,8 +390,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -182.80103
-    y: -218.40076
+    x: -233.46747
+    y: -849.7339
     width: 210
     height: 155
   IsDragging: 1
@@ -420,8 +420,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 287.19873
-    y: 930.4004
+    x: 236.53299
+    y: 299.06738
     width: 210
     height: 155
   IsDragging: 1
@@ -450,8 +450,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 790.1997
-    y: 903.3989
+    x: 739.53253
+    y: 272.06586
     width: 210
     height: 155
   IsDragging: 1
@@ -482,8 +482,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -361.20068
-    y: 511.80017
+    x: -411.86743
+    y: -119.53291
     width: 210
     height: 155
   IsDragging: 1
@@ -512,8 +512,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -177.80127
-    y: -62.399597
+    x: -229.13446
+    y: -693.7328
     width: 190
     height: 155
   IsDragging: 1
@@ -521,7 +521,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CWe\u2019ll see about that.\u201D"
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -5517677057162122259}
   ChildNode: {fileID: 5400993441226385584}
@@ -544,8 +544,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 771.3989
-    y: 204.5994
+    x: 721.3984
+    y: -426.73373
     width: 190
     height: 135
   IsDragging: 1
@@ -553,7 +553,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: Yum!
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: 7322080793116021540}
   ChildNode: {fileID: 5400993441226385584}
@@ -576,8 +576,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -968.80005
-    y: 864.7969
+    x: -1019.46674
+    y: 233.46384
     width: 210
     height: 155
   IsDragging: 1
@@ -606,8 +606,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -42.40149
-    y: 525.6001
+    x: -93.06781
+    y: -105.73297
     width: 210
     height: 155
   IsDragging: 1
@@ -636,8 +636,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -360.80103
-    y: 711.19946
+    x: -411.46777
+    y: 80.53302
     width: 190
     height: 155
   IsDragging: 1
@@ -645,7 +645,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CNo, I already had one. I am back with a disguise.\u201D"
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -3213983066043526683}
   ChildNode: {fileID: -6653124452339182468}
@@ -668,8 +668,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 5.198242
-    y: 301.59998
+    x: -49.4682
+    y: -289.73306
     width: 190
     height: 155
   IsDragging: 1
@@ -677,7 +677,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CAbsolutely not, I\u2019m new here!\u201D "
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: 4471493357283500066}
   ChildNode: {fileID: 7322080793116021540}
@@ -700,8 +700,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -40.0011
-    y: 936.8003
+    x: -90.66766
+    y: 305.46704
     width: 210
     height: 155
   IsDragging: 1
@@ -730,8 +730,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -980.7993
-    y: 172.79965
+    x: -1031.466
+    y: -458.53363
     width: 210
     height: 155
   IsDragging: 1
@@ -760,8 +760,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -710.59906
-    y: 862.9968
+    x: -761.26575
+    y: 231.66379
     width: 190
     height: 155
   IsDragging: 1
@@ -796,8 +796,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -981.5991
-    y: 336.799
+    x: -1032.2657
+    y: -294.53394
     width: 190
     height: 155
   IsDragging: 1
@@ -805,7 +805,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "\u201Cis this your first sample?\u201D"
-    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: ec1e5da746e811541be8e1af8125f9cb, type: 3}
   ParentNodes:
   - {fileID: -313639228845227011}
   ChildNode: {fileID: 1266742737693305537}
@@ -893,8 +893,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -969.6001
-    y: 523.19946
+    x: -1020.26685
+    y: -108.133606
     width: 210
     height: 155
   IsDragging: 1
@@ -923,8 +923,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -33.601196
-    y: 1113.6016
+    x: -84.26776
+    y: 482.2683
     width: 190
     height: 155
   IsDragging: 1
@@ -933,7 +933,7 @@ MonoBehaviour:
     CharacterName: 
     Text: "\u201CLady, if you gave me a hotdog, I would remember it for the rest
       of my life.\u201D "
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes: []
   ChildNode: {fileID: -4424996126568185808}
   _isExternalFunc: 1
@@ -955,8 +955,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -413.8003
-    y: -59.399963
+    x: -464.46655
+    y: -690.73315
     width: 190
     height: 155
   IsDragging: 1
@@ -964,7 +964,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "\u201CEnjoy! Only one free sample per customer!\u201D "
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 21300000, guid: ec1e5da746e811541be8e1af8125f9cb, type: 3}
   ParentNodes:
   - {fileID: -8278342111320342072}
   ChildNode: {fileID: -5517677057162122259}
@@ -987,8 +987,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -679.7983
-    y: 180.39984
+    x: -730.46497
+    y: -450.93335
     width: 190
     height: 155
   IsDragging: 1
@@ -1022,8 +1022,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -952.7998
-    y: -34.40033
+    x: -1002.7998
+    y: -665.7335
     width: 190
     height: 155
   IsDragging: 1
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: The Hot Dog Lady
     Text: "\u201CWould you like to sample a free hotdog?\u201D"
-    CharacterSprite: {fileID: 21300000, guid: 9a726466a944a4ac4898ffa525d0569f, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: ec1e5da746e811541be8e1af8125f9cb, type: 3}
   ParentNodes:
   - {fileID: 7272588074984464437}
   ChildNode: {fileID: -6684978401787087157}
@@ -1054,8 +1054,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 290.39868
-    y: 516.7999
+    x: 239.73273
+    y: -114.53314
     width: 210
     height: 155
   IsDragging: 1
@@ -1084,8 +1084,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 287.19897
-    y: 692.8003
+    x: 235.19974
+    y: 61.467224
     width: 190
     height: 155
   IsDragging: 1
@@ -1093,7 +1093,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CYou\u2019ve caught me. I\u2019m guilty. I\u2019ll go to jail myself.\u201D"
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: 1990859038986548300}
   ChildNode: {fileID: -6653124452339182468}
@@ -1116,8 +1116,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -27.001953
-    y: 105.59982
+    x: -77.668396
+    y: -525.7335
     width: 210
     height: 155
   IsDragging: 1
@@ -1146,8 +1146,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1336.5879
-    y: -79.00043
+    x: 1285.9196
+    y: -710.3336
     width: 210
     height: 155
   IsDragging: 1
@@ -1179,8 +1179,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -354.80054
-    y: 294.99976
+    x: -405.46704
+    y: -336.33356
     width: 190
     height: 155
   IsDragging: 1
@@ -1188,7 +1188,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CYes m\u2019am!\u201D"
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -6144611588763790839}
   ChildNode: {fileID: 7322080793116021540}
@@ -1211,8 +1211,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -1288.8003
-    y: -138.39966
+    x: -1339.4672
+    y: -769.7328
     width: 240
     height: 160
   IsDragging: 1
@@ -1241,8 +1241,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -704.59955
-    y: 523.8004
+    x: -755.26624
+    y: -107.53265
     width: 190
     height: 155
   IsDragging: 1
@@ -1277,17 +1277,17 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1489
-    y: 389
+    x: 1438.3319
+    y: -242.33295
     width: 190
     height: 135
   IsDragging: 1
-  IsSelected: 0
+  IsSelected: 1
   _sentence:
     CharacterName: You Won!
     Text: My stomach, full. My mission, complete. My soul... Oh, ladies and gents,
       my soul is fulfilled!
-    CharacterSprite: {fileID: 0}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -6625178406413556449}
   ChildNode: {fileID: 0}
@@ -1310,8 +1310,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -959.7998
-    y: -180.40063
+    x: -1010.4666
+    y: -811.7339
     width: 210
     height: 155
   IsDragging: 1
@@ -1340,8 +1340,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 774
-    y: 38
+    x: 723.3328
+    y: -593.33325
     width: 210
     height: 155
   IsDragging: 1
@@ -1371,8 +1371,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -44.00122
-    y: 704.00024
+    x: -94.000916
+    y: 74.00055
     width: 190
     height: 155
   IsDragging: 1
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CYes. Shamefully I must admit, I am wearing a disguise.\u201D "
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -1704432428788052054}
   ChildNode: {fileID: -6653124452339182468}
@@ -1403,8 +1403,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -1308.6003
-    y: 223.79959
+    x: -1359.2675
+    y: -407.53354
     width: 240
     height: 160
   IsDragging: 1
@@ -1434,8 +1434,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -1344.2004
-    y: 889.3972
+    x: -1394.8676
+    y: 258.06418
     width: 240
     height: 160
   IsDragging: 1
@@ -1465,8 +1465,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: -668.79926
-    y: -47.40033
+    x: -718.7992
+    y: -678.7335
     width: 190
     height: 155
   IsDragging: 1
@@ -1474,7 +1474,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CYes m\u2019am!\u201D"
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -6684978401787087157}
   ChildNode: {fileID: -8278342111320342072}
@@ -1497,8 +1497,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 320.39722
-    y: 334.6001
+    x: 269.73114
+    y: -296.73303
     width: 190
     height: 155
   IsDragging: 1
@@ -1506,7 +1506,7 @@ MonoBehaviour:
   _sentence:
     CharacterName: 
     Text: "\u201CWhat? No. How dare you accuse me of that.\u201D "
-    CharacterSprite: {fileID: 21300000, guid: dd5fabb320ad95c1a83cfabf576deaf5, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -7629556984563403125}
   ChildNode: {fileID: -6625178406413556449}
