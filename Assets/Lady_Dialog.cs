@@ -12,7 +12,7 @@ public class TestDialog : MonoBehaviour
     {
         dialogBehaviour.BindExternalFunction("playAudio", playVO);
         dialogBehaviour.SetVariableValue("Interaction", 0);
-        // dialogBehaviour.StartDialog(dialogGraph);
+        dialogBehaviour.StartDialog(dialogGraph);
 
 
     }
