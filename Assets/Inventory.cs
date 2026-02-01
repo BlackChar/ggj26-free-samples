@@ -19,13 +19,13 @@ public struct ItemSlot
 
 public class Inventory : MonoBehaviour
 {
-    [Tooltip("Fixní poèet slotù v inventáøi")]
+    [Tooltip("Fixed inventory slots")]
     public int capacity = 6;
 
     [SerializeField]
     private ItemType[] slots;
 
-    [Tooltip("Fixní seznam položek, které mùže hráè získat (nastavitelné v inspektoru)")]
+    [Tooltip("Fixed item list of obtainable items (can be set in inspector)")]
     public ItemType[] obtainableItems = new ItemType[] { ItemType.Mop, ItemType.Shades, ItemType.Hat, ItemType.Perfume};
 
     private HashSet<ItemType> obtainableSet;
@@ -35,18 +35,18 @@ public class Inventory : MonoBehaviour
         if (slots == null || slots.Length != capacity)
             slots = new ItemType[capacity];
 
-        // Inicializace prázdných slotù
+        // Empty slot init
         for (int i = 0; i < slots.Length; i++)
             slots[i] = ItemType.None;
 
         obtainableSet = new HashSet<ItemType>(obtainableItems);
     }
 
-    // Vrací true pokud je položka v pevnì definovaném seznamu obtainableItems
+    
     public bool IsObtainable(ItemType item) =>
         item != ItemType.None && obtainableSet.Contains(item);
 
-    // Non-stackable: každý slot mùže obsahovat nejvýše 1 položku
+    // Non-stackable: every slot can have 1 piece max
     public bool TryAdd(ItemType item)
     {
         if (!IsObtainable(item)) return false;
@@ -60,7 +60,7 @@ public class Inventory : MonoBehaviour
             }
         }
 
-        // žádný volný slot
+        // no free slot
         return false;
     }
 
@@ -85,7 +85,7 @@ public class Inventory : MonoBehaviour
             slots[i] = ItemType.None;
     }
 
-    // Nápomocná metoda: kolik kusù daného typu je v inventáøi
+    // how many of a specific item are in the inventory
     public int CountItem(ItemType item)
     {
         int count = 0;

@@ -10,7 +10,7 @@ public class GameLogic : MonoBehaviour
     {
         if (inventory == null) inventory = FindObjectOfType<Inventory>();
 
-        // Demo: pokus pøidat dvì položky pøi startu (volitelné, lze odstranit)
+        // Demo: try to pick up Mop and Shades at start
         if (inventory != null)
         {
             bool addedMop = inventory.TryAdd(ItemType.Mop);
@@ -21,7 +21,7 @@ public class GameLogic : MonoBehaviour
 
     private void Update()
     {
-        // Debug ovládání: klávesy 1-4 pro sbìr položek z pevného seznamu
+        // Debug : 1-4 to pick up items
         if (inventory == null) return;
 
         if (Input.GetKeyDown(KeyCode.Alpha1)) TryPickup(ItemType.Mop);
