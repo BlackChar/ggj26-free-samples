@@ -3,6 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public static class Globals
+{
+    public static int numInteractions = 0;
+    public static int affection = 0;
+}
+
 public class GameLogic : MonoBehaviour
 {
     [SerializeField] private Inventory inventory;
@@ -13,8 +20,6 @@ public class GameLogic : MonoBehaviour
     private void Start()
     {
 
-        dialogBehaviour.SetVariableValue("Interaction", 0);
-
 
         if (inventory == null) inventory = FindObjectOfType<Inventory>();
 
@@ -24,6 +29,7 @@ public class GameLogic : MonoBehaviour
             bool addedMop = inventory.TryAdd(ItemType.Mop);
             bool addedShades = inventory.TryAdd(ItemType.Shades);
             Debug.Log($"Start pickup: Mop={addedMop}, Shades={addedShades}");
+            Debug.Log($"Start values: Interaction={Globals.numInteractions}, Affection={Globals.affection}");
         }
     }
 
@@ -51,7 +57,12 @@ public class GameLogic : MonoBehaviour
     {
         if (dialogBehaviour != null && objName.name == "HotDogStand")
         {
+            dialogBehaviour.SetVariableValue("numInteractions", Globals.numInteractions);
+            dialogBehaviour.SetVariableValue("Affection", Globals.affection);
+            Debug.Log($"Loaded variables: numInteractions={Globals.numInteractions}, Affection={Globals.affection}");
+            Debug.Log($"Current values: numInteractions={dialogBehaviour.GetVariableValue<int>("Interaction")}, Affection={dialogBehaviour.GetVariableValue<int>("Affection")}");
             dialogBehaviour.BindExternalFunction("playAudio", playVO);
+            dialogBehaviour.BindExternalFunction("saveVariables", saveDialogVars);
             dialogBehaviour.StartDialog(dialogGraph);
         }
     }
@@ -68,6 +79,14 @@ public class GameLogic : MonoBehaviour
         AudioClip clip = Resources.Load<AudioClip>("Audio/" + clipname);
         Debug.Log("Calling playaudio for clipname " + clipname);
         AudioSource.PlayClipAtPoint(clip, new Vector3(0, 0, 0), 1);
+
+    }
+
+    public void saveDialogVars()
+    {
+        Globals.numInteractions = dialogBehaviour.GetVariableValue<int>("numInteractions")+1;
+        Globals.affection = dialogBehaviour.GetVariableValue<int>("Affection");
+        Debug.Log($"Saved variables: Interaction={Globals.numInteractions}, Affection={Globals.affection}");
 
     }
 

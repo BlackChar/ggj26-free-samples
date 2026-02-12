@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: LadyDialogTree_Variables
   m_EditorClassIdentifier: 
   _variables:
-  - _name: Interaction
-    _type: 1
-    _saveToPrefs: 0
-    _boolValue: 0
-    _intValue: 0
-    _floatValue: 0
-    _stringValue: 
-  - _name: Romance
-    _type: 1
-    _saveToPrefs: 0
-    _boolValue: 0
-    _intValue: 0
-    _floatValue: 0
-    _stringValue: 
   - _name: AudioClip
     _type: 3
+    _saveToPrefs: 0
+    _boolValue: 0
+    _intValue: 0
+    _floatValue: 0
+    _stringValue: 1Lady
+  - _name: Affection
+    _type: 1
+    _saveToPrefs: 0
+    _boolValue: 0
+    _intValue: 0
+    _floatValue: 0
+    _stringValue: 
+  - _name: numInteractions
+    _type: 1
     _saveToPrefs: 0
     _boolValue: 0
     _intValue: 0
