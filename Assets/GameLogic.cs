@@ -57,6 +57,24 @@ public class GameLogic : MonoBehaviour
     {
         if (dialogBehaviour != null && objName.name == "HotDogStand")
         {
+            switch (Globals.numInteractions)
+            {
+                case 0:
+                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree");
+                    break;
+                case 1:
+                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 1");
+                    break;
+                case 2:
+                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 2");
+                    break;
+                case 3:
+                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 3");
+                    break;
+                default:
+                    break;
+            }
+
             dialogBehaviour.SetVariableValue("numInteractions", Globals.numInteractions);
             dialogBehaviour.SetVariableValue("Affection", Globals.affection);
             Debug.Log($"Loaded variables: numInteractions={Globals.numInteractions}, Affection={Globals.affection}");
