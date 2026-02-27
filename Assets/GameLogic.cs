@@ -26,9 +26,9 @@ public class GameLogic : MonoBehaviour
         // Demo: try to pick up Mop and Shades at start
         if (inventory != null)
         {
-            bool addedMop = inventory.TryAdd(ItemType.Mop);
-            bool addedShades = inventory.TryAdd(ItemType.Shades);
-            Debug.Log($"Start pickup: Mop={addedMop}, Shades={addedShades}");
+            //bool addedMop = inventory.TryAdd(ItemType.Mop);
+            //bool addedShades = inventory.TryAdd(ItemType.Shades);
+            //Debug.Log($"Start pickup: Mop={addedMop}, Shades={addedShades}");
             Debug.Log($"Start values: Interaction={Globals.numInteractions}, Affection={Globals.affection}");
         }
     }

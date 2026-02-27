@@ -20,7 +20,7 @@ public struct ItemSlot
 public class Inventory : MonoBehaviour
 {
     [Tooltip("Fixed inventory slots")]
-    public int capacity = 6;
+    public int capacity = 4;
 
     [SerializeField]
     private ItemType[] slots;
