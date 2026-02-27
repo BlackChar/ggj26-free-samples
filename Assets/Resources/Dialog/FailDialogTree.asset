@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8278342111320342072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
-  m_Name: Modify Variable Node
-  m_EditorClassIdentifier: 
-  NodeGraph: {fileID: 11400000}
-  Rect:
-    serializedVersion: 2
-    x: 730.86646
-    y: 278.93298
-    width: 210
-    height: 155
-  IsDragging: 1
-  IsSelected: 0
-  _variableName: AudioClip
-  _modifyType: 0
-  _boolValue: 0
-  _intValue: 0
-  _floatValue: 0
-  _stringValue: 03Lady
-  ParentNodes:
-  - {fileID: 8850210716939913185}
-  ChildNode: {fileID: 913315428175582731}
 --- !u!114 &-6684978401787087157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,8 +15,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 479.86768
-    y: 287.93286
+    x: 478.86768
+    y: 286.93286
     width: 210
     height: 155
   IsDragging: 1
@@ -56,72 +26,10 @@ MonoBehaviour:
   _boolValue: 0
   _intValue: 0
   _floatValue: 0
-  _stringValue: 02Player
+  _stringValue: 
   ParentNodes:
   - {fileID: 1799488864322913363}
   ChildNode: {fileID: 8850210716939913185}
---- !u!114 &-5517677057162122259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30402c10d300488491eb82eed1db9a20, type: 3}
-  m_Name: Modify Variable Node
-  m_EditorClassIdentifier: 
-  NodeGraph: {fileID: 11400000}
-  Rect:
-    serializedVersion: 2
-    x: 970.86584
-    y: 263.93286
-    width: 210
-    height: 155
-  IsDragging: 1
-  IsSelected: 0
-  _variableName: AudioClip
-  _modifyType: 0
-  _boolValue: 0
-  _intValue: 0
-  _floatValue: 0
-  _stringValue: 04Player
-  ParentNodes:
-  - {fileID: 913315428175582731}
-  ChildNode: {fileID: -2569959868657629529}
---- !u!114 &-2569959868657629529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  NodeGraph: {fileID: 11400000}
-  Rect:
-    serializedVersion: 2
-    x: 975.19885
-    y: 419.93396
-    width: 190
-    height: 155
-  IsDragging: 1
-  IsSelected: 0
-  _sentence:
-    CharacterName: 
-    Text: "\u201CWe\u2019ll see about that.\u201D"
-    CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
-  ParentNodes:
-  - {fileID: -5517677057162122259}
-  ChildNode: {fileID: 5400993441226385584}
-  _isExternalFunc: 1
-  _externalFunctionName: playAudio
-  CharacterNameKey: 
-  SentenceTextKey: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,18 +40,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
-  m_Name: LadyDialogTree
+  m_Name: FailDialogTree
   m_EditorClassIdentifier: 
   NodesList:
   - {fileID: 1799488864322913363}
-  - {fileID: 913315428175582731}
-  - {fileID: -2569959868657629529}
   - {fileID: 8850210716939913185}
   - {fileID: 5400993441226385584}
   - {fileID: 7272588074984464437}
   - {fileID: -6684978401787087157}
-  - {fileID: -8278342111320342072}
-  - {fileID: -5517677057162122259}
   - {fileID: 6690470231049876527}
   VariablesConfig: {fileID: 11400000, guid: fbac82de6432ddef390043046cca40f1, type: 2}
   _localizationTableName: 
@@ -151,38 +55,6 @@ MonoBehaviour:
   NodeToDrawLineFrom: {fileID: 0}
   LinePosition: {x: 0, y: 0}
   IsLocalizationSetUp: 0
---- !u!114 &913315428175582731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  NodeGraph: {fileID: 11400000}
-  Rect:
-    serializedVersion: 2
-    x: 739.8667
-    y: 422.9336
-    width: 190
-    height: 155
-  IsDragging: 1
-  IsSelected: 0
-  _sentence:
-    CharacterName: The Hot Dog Lady
-    Text: "\u201CEnjoy! Only one free sample per customer!\u201D "
-    CharacterSprite: {fileID: 21300000, guid: ec1e5da746e811541be8e1af8125f9cb, type: 3}
-  ParentNodes:
-  - {fileID: -8278342111320342072}
-  ChildNode: {fileID: -5517677057162122259}
-  _isExternalFunc: 1
-  _externalFunctionName: playAudio
-  CharacterNameKey: 
-  SentenceTextKey: 
 --- !u!114 &1799488864322913363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,14 +71,14 @@ MonoBehaviour:
   Rect:
     serializedVersion: 2
     x: 201.53345
-    y: 447.93323
+    y: 450.93323
     width: 190
     height: 155
   IsDragging: 1
   IsSelected: 0
   _sentence:
     CharacterName: The Hot Dog Lady
-    Text: "\u201CWould you like to sample a free hotdog?\u201D"
+    Text: '"I''m sorry, only one per hotdog customer. You already had one.'
     CharacterSprite: {fileID: 21300000, guid: ec1e5da746e811541be8e1af8125f9cb, type: 3}
   ParentNodes:
   - {fileID: 7272588074984464437}
@@ -230,8 +102,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1235.2529
-    y: 421.33313
+    x: 1236.2529
+    y: 424.33313
     width: 210
     height: 155
   IsDragging: 1
@@ -243,7 +115,7 @@ MonoBehaviour:
   _floatValue: 0
   _stringValue: 
   ParentNodes:
-  - {fileID: -2569959868657629529}
+  - {fileID: 8850210716939913185}
   ChildNode: {fileID: 6690470231049876527}
 --- !u!114 &6690470231049876527
 MonoBehaviour:
@@ -260,8 +132,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 1550
-    y: 458
+    x: 1551
+    y: 461
     width: 190
     height: 80
   IsDragging: 1
@@ -286,8 +158,8 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 193.8667
-    y: 301.93286
+    x: 195.8667
+    y: 303.93286
     width: 210
     height: 155
   IsDragging: 1
@@ -297,7 +169,7 @@ MonoBehaviour:
   _boolValue: 0
   _intValue: 0
   _floatValue: 0
-  _stringValue: 01Lady
+  _stringValue: 
   ParentNodes: []
   ChildNode: {fileID: 1799488864322913363}
 --- !u!114 &8850210716939913185
@@ -315,19 +187,19 @@ MonoBehaviour:
   NodeGraph: {fileID: 11400000}
   Rect:
     serializedVersion: 2
-    x: 485.53418
-    y: 434.93323
+    x: 482.53418
+    y: 437.93323
     width: 190
     height: 155
   IsDragging: 1
   IsSelected: 0
   _sentence:
     CharacterName: 
-    Text: "\u201CYes m\u2019am!\u201D"
+    Text: "\u201COh, sure, sorry.\u201D"
     CharacterSprite: {fileID: 21300000, guid: 612a017aa06547b44b6144033d4559e3, type: 3}
   ParentNodes:
   - {fileID: -6684978401787087157}
-  ChildNode: {fileID: -8278342111320342072}
+  ChildNode: {fileID: 5400993441226385584}
   _isExternalFunc: 1
   _externalFunctionName: playAudio
   CharacterNameKey: 

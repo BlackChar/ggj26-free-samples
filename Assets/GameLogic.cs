@@ -1,18 +1,33 @@
 using cherrydev;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
+
+public enum ItemType
+{
+    None,
+    Mop,
+    Shades,
+    Hat,
+    Perfume
+}
+
+
 public static class Globals
 {
+    public static int numHotdogEaten = 0;
     public static int numInteractions = 0;
     public static int affection = 0;
+    public static bool continueConvo = false;
+    public static List<ItemType> inventoryItems = new List<ItemType>();
+
 }
 
 public class GameLogic : MonoBehaviour
 {
-    [SerializeField] private Inventory inventory;
     [SerializeField] private DialogBehaviour dialogBehaviour;
     [SerializeField] private DialogNodeGraph dialogGraph;
 
@@ -20,69 +35,126 @@ public class GameLogic : MonoBehaviour
     private void Start()
     {
 
+        // start a new game: reset all variables
+        Globals.inventoryItems.Clear();
+        Globals.affection = 0;
+        Globals.numInteractions = 0;
+        Globals.numHotdogEaten = 0;
 
-        if (inventory == null) inventory = FindObjectOfType<Inventory>();
-
-        // Demo: try to pick up Mop and Shades at start
-        if (inventory != null)
-        {
-            //bool addedMop = inventory.TryAdd(ItemType.Mop);
-            //bool addedShades = inventory.TryAdd(ItemType.Shades);
-            //Debug.Log($"Start pickup: Mop={addedMop}, Shades={addedShades}");
-            Debug.Log($"Start values: Interaction={Globals.numInteractions}, Affection={Globals.affection}");
-        }
+        Debug.Log($"Start values: Interaction={Globals.numInteractions}, Affection={Globals.affection}");
     }
 
     private void Update()
     {
-        // Debug : 1-4 to pick up items
-        if (inventory == null) return;
-
-        if (Input.GetKeyDown(KeyCode.Alpha1)) TryPickup(ItemType.Mop);
-        if (Input.GetKeyDown(KeyCode.Alpha2)) TryPickup(ItemType.Shades);
-        if (Input.GetKeyDown(KeyCode.Alpha3)) TryPickup(ItemType.Hat);
-        if (Input.GetKeyDown(KeyCode.Alpha4)) TryPickup(ItemType.Perfume);
     }
 
-    private void TryPickup(ItemType item)
-    {
-        if (inventory.TryAdd(item))
-            Debug.Log($"Picked up {item}");
-        else
-            Debug.Log($"Failed to pick up {item} — not obtainable, or inventory full");
-    }
 
 
     public void ItemInteract(GameObject objName)
     {
-        if (dialogBehaviour != null && objName.name == "HotDogStand")
+        switch (objName.name)
         {
-            switch (Globals.numInteractions)
-            {
-                case 0:
-                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree");
-                    break;
-                case 1:
-                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 1");
-                    break;
-                case 2:
-                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 2");
-                    break;
-                case 3:
-                    dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 3");
-                    break;
-                default:
-                    break;
-            }
+            case "HotDogStand":
+                Debug.Log($"Found Hot Dog Stand!");
+                startHotDogConvo();
+                return;
+            case "Interactable_Glasses":
+                Debug.Log($"Found Glasses!");
+                Globals.inventoryItems.Add(ItemType.Shades);
+                break;
+            case "Interactable_Mop":
+                Debug.Log($"Found Mop!");
+                Globals.inventoryItems.Add(ItemType.Mop);
+                break;
+            case "Interactable_Hat":
+                Debug.Log($"Found Hat!");
+                Globals.inventoryItems.Add(ItemType.Hat);
+                break;
 
-            dialogBehaviour.SetVariableValue("numInteractions", Globals.numInteractions);
-            dialogBehaviour.SetVariableValue("Affection", Globals.affection);
-            Debug.Log($"Loaded variables: numInteractions={Globals.numInteractions}, Affection={Globals.affection}");
-            Debug.Log($"Current values: numInteractions={dialogBehaviour.GetVariableValue<int>("Interaction")}, Affection={dialogBehaviour.GetVariableValue<int>("Affection")}");
-            dialogBehaviour.BindExternalFunction("playAudio", playVO);
-            dialogBehaviour.BindExternalFunction("saveVariables", saveDialogVars);
-            dialogBehaviour.StartDialog(dialogGraph);
+            default:
+                Debug.Log($"Interacted with {objName.name}");
+                break;
         }
+/*        GameObject.Find("Inventory_Mop").SetActive(Globals.inventoryItems.Contains(ItemType.Mop));
+        GameObject.Find("Inventory_Glasses").SetActive(Globals.inventoryItems.Contains(ItemType.Shades));
+        GameObject.Find("Inventory_Hat").SetActive(Globals.inventoryItems.Contains(ItemType.Hat));
+  */
+//updateOnScreenDisplay();
+        objName.SetActive(false);
+
+    }
+
+    public void startHotDogConvo()
+    {
+        dialogBehaviour.BindExternalFunction("playAudio", playVO);
+        dialogBehaviour.BindExternalFunction("saveVariables", saveDialogVars);
+        //dialogBehaviour.BindExternalFunction("nextConvo", nextHotDogConvo);
+        
+        if (Globals.continueConvo)
+        {
+            nextHotDogConvo();
+            return;
+        }
+
+        if (Globals.numInteractions == 0) {
+            dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree");
+            Globals.numInteractions++;
+        } else {
+
+            //do we have any items in inventory?
+            if (Globals.inventoryItems.Count == 0)
+            {
+                dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/FailDialogTree");
+            }
+            else
+            {
+                switch (Globals.inventoryItems[0])
+                {
+                    case ItemType.Mop:
+                        dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/MopDialogTree");
+                        break;
+                    case ItemType.Shades:
+                        dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/ShadesDialogTree");
+                        break;
+                    case ItemType.Hat:
+                        dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/HatDialogTree");
+                        break;
+                    default:
+                        dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/FailDialogTree");
+                        break;
+                }
+                Globals.inventoryItems.RemoveAt(0);
+                Globals.continueConvo = true;
+            }
+        }
+
+
+        Debug.Log($"Current values: numInteractions={dialogBehaviour.GetVariableValue<int>("Interaction")}, Affection={dialogBehaviour.GetVariableValue<int>("Affection")}");
+        dialogBehaviour.StartDialog(dialogGraph);
+
+    }
+
+    public void nextHotDogConvo() { 
+
+        switch (Globals.numInteractions)
+        {
+            case 0:
+                return;
+            case 1:
+                dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 1");
+                break;
+            case 2:
+                dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 2");
+                break;
+            case 3:
+                dialogGraph = Resources.Load<DialogNodeGraph>("Dialog/LadyDialogTree 3");
+                break;
+            default:
+                return;
+        }
+        dialogBehaviour.StartDialog(dialogGraph);
+        Globals.numInteractions++;
+        Globals.continueConvo = false;
     }
 
     public void playVO()
@@ -102,10 +174,18 @@ public class GameLogic : MonoBehaviour
 
     public void saveDialogVars()
     {
-        Globals.numInteractions = dialogBehaviour.GetVariableValue<int>("numInteractions")+1;
-        Globals.affection = dialogBehaviour.GetVariableValue<int>("Affection");
-        Debug.Log($"Saved variables: Interaction={Globals.numInteractions}, Affection={Globals.affection}");
+        //Globals.numInteractions = dialogBehaviour.GetVariableValue<int>("numInteractions")+1;
+        //Globals.affection = dialogBehaviour.GetVariableValue<int>("Affection");
+        //Debug.Log($"Saved variables: Interaction={Globals.numInteractions}, Affection={Globals.affection}");
 
+    }
+
+    public void updateOnScreenDisplay()
+    {
+
+        //GameObject.Find("HotDogsText").setText($"Hot Dogs Eaten: {Globals.numHotdogEaten}");
+
+        return;
     }
 
 
